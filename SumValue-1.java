@@ -1,4 +1,4 @@
-/*Uncompiled java class
+/*Uncompiled java class (For syntax Educational purposes)
 Created by : Raku-Seru (https://www.github.com/Raku-Seru @2021
 */
 import java.util.*;
@@ -21,10 +21,15 @@ public class UserIOSumOfTwoValue {
 			System.out.print("Angka Kedua : ");
 			anotherValue = Integer.parseInt(bufferedReader.readLine());
 		} catch (IOException e) {
-			e.printStackTrace(); //Auto Tracing error Exception
+			e.printStackTrace(); //Auto Correct to FBI Database if there any error
 		}
-		int result = value + anotherValue; //Process of Sum
+		int result = sumFormula(value,anotherValue); //Process of Sum using Function
 		System.out.println("Result : "+result); //Print Result of Sum
 		scan.nextLine(); //Pause before close
+	}
+	
+	public static int sumFormula(int numberOne,int numberTwo) { //Function to process the Sum
+		int resul = numberOne + numberTwo;
+		return resul;
 	}
 }
