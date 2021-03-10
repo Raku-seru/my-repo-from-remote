@@ -14,7 +14,7 @@ public class UserIOSumOfTwoValue {
 		BufferedReader bufferedReader = new BufferedReader(streamReader); //new object (BufferedReader)
 		
 		System.out.println("Input data untuk dijumlah : ");
-		int value = 0;int anotherValue -0; //Declare Variables to Sum
+		int value = 0;int anotherValue = 0; //Declare Variables to Sum
 		try {
 			System.out.print("Angka Pertama : ");
 			value = Integer.parseInt(bufferedReader.readLine());
